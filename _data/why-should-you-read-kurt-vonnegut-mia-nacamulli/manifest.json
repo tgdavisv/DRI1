@@ -1,0 +1,46 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tgdavisv.github.io/DRI1/why-should-you-read-kurt-vonnegut-mia-nacamulli/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Why should you read Kurt Vonnegut? - Mia Nacamulli" ] },
+    "homepage": [
+      {
+        "id": "https://www.youtube.com/watch?v=cwwK7NmfF9w&amp;ab_channel=TED-Ed",
+        "type": "Text",
+        "label": { "en": [ "Why should you read Kurt Vonnegut? - Mia Nacamulli" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "youtube.com",
+        "type": "Agent",
+        "label": { "en": [ "YouTube" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://tgdavisv.github.io/DRI1/why-should-you-read-kurt-vonnegut-mia-nacamulli/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 323.0,
+        "items": [
+          {
+            "id": "https://tgdavisv.github.io/DRI1/why-should-you-read-kurt-vonnegut-mia-nacamulli/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://tgdavisv.github.io/DRI1/why-should-you-read-kurt-vonnegut-mia-nacamulli/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://www.youtube.com/watch?v=cwwK7NmfF9w&ab_channel=TED-Ed",
+                    "duration": 323.0
+                },
+                "target": "https://tgdavisv.github.io/DRI1/why-should-you-read-kurt-vonnegut-mia-nacamulli/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
